@@ -1,0 +1,5 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^hacker\.gbsservice\.in$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.hacker\.gbsservice\.in$
+RewriteRule ^/?$ "http\:\/\/gbsservice\.in\/hacker\/" [R=301,L]
